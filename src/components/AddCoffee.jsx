@@ -86,6 +86,7 @@ const AddCoffee = () => {
                             <input type="text" name='taste' placeholder="taste name" className="input input-bordered" required />
                         </div>
                     </div>
+                    {/* add */}
                     {/* form third row */}
                     <div className='flex flex-col lg:flex-row gap-5'>
                         <div className="form-control flex-1">
