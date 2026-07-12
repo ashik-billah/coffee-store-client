@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2';
-
+//add
 const Coffee = ({ coffee, loadedCoffees, setLoadedCoffees }) => {
 
     const { _id, name, chef, taste, photo } = coffee;
