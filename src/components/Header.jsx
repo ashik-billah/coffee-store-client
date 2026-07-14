@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 //add
-//add
+//add                                                                                                                                        
 const Header = () => {
 
     const links = <>
@@ -9,7 +9,7 @@ const Header = () => {
         <li><NavLink to="/addCoffee">Add Coffee</NavLink></li>
         
     </>
-
+//add
     return (
         <div className="navbar bg-base-100">
             <div className="navbar-start">
