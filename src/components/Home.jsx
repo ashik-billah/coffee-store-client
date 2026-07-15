@@ -7,6 +7,7 @@ const Home = () => {
     const coffees = useLoaderData();
 
     // better use tanstack query or similar packages
+    //add
     const [loadedCoffees, setLoadedCoffees] = useState(coffees);
 
     return (
