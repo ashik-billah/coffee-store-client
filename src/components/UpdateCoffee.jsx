@@ -17,7 +17,7 @@ const UpdateCoffee = () => {
         const category = e.target.category.value;
         const details = e.target.details.value;
         const photo = e.target.photo.value;
-
+// add
         const newCoffee = { name, chef, supplier, taste, category, details, photo }
         console.log(newCoffee)
 
