@@ -34,6 +34,7 @@ const UpdateCoffee = () => {
                 console.log(data);
                 if (data.modifiedCount) {
                     console.log('successfully updated');
+                    //add
                     Swal.fire({
                         title: 'Success!',
                         text: 'Coffee updated successfully',
