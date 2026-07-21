@@ -73,6 +73,7 @@ const UpdateCoffee = () => {
                             <input type="text" name='chef' defaultValue={chef} placeholder="chef name" className="input input-bordered" required />
                         </div>
                     </div>
+                    {/* //add */}
                     {/* form second row */}
                     <div className='flex flex-col lg:flex-row gap-5'>
                         <div className="form-control flex-1">
